@@ -1,0 +1,292 @@
+/* ******************************************************** MEDIDAS UNIVERSALES ************************************************* */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../multimedia/pueblo-montaña.jpg);
+    background-size: cover;
+    
+}
+
+
+/* ******************************************************** HEADER ********************************************************** */
+
+.grid-container {
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    background-color: #73706E;
+    border-bottom: 2px solid #F2EDE4;
+}
+
+.grid-container a {
+    text-decoration: none;
+}
+
+.item {
+    list-style: none;
+    width: auto;
+    height: 30px;
+    margin-left: 10px;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.item:hover {
+    background-color: #F2EDE4;
+    transition: 0.3s;
+    transform: scale(1.2);
+    
+}
+
+.item:hover a {
+    color: #BFBFBD;
+}
+
+.item a {
+    font-family: "Lato", sans-serif;
+    color: #F2EDE4;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.wasap {
+    width: 30px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 1;
+}
+
+.container-aloja {
+    display: none;
+}
+
+.item:hover>.container-aloja {
+    display: block;
+    list-style: none;
+    transition: 0.3s;
+    
+}
+.item-aloja{
+    background-color: #73706E;
+    border-bottom: 2px solid #F2EDE4;
+    border-radius: 4px;
+}
+
+.item-aloja:hover {
+    
+    background-color: #F2EDE4;
+    transition: 0.3s;
+    transform: scale(1.1);
+    border-radius: 4px;   
+}
+
+
+
+/* ************************************************* PAGINA PRICIPAL ********************************************** */
+.contenedor {
+    width: auto;
+    height: 700px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 5rem;
+    color: #F2EDE4;
+    font-weight: bold;
+}
+
+.parrafo {
+    margin-top: 30px;
+    padding: 20px;
+    width: 900px;
+    height: 400px;
+
+}
+
+.parrafo p {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #F2EDE4;
+}
+
+#span {
+    font-family: "Lato", sans-serif;
+    font-size: 150%;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* *************** VIDEO UBICACION Y FORMULARIO ******* */
+
+.multimedia-contenedor {
+    border-top: 2px solid whitesmoke;
+    padding: 40px;
+    background-color: #73706E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sombra{
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    box-shadow: 20px 20px #F2EDE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #BFBFBD;
+}
+.ubicacion-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.ubicacion iframe {
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+.ubicacion iframe:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.video iframe {
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+.video iframe:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.ubicacion h2 {
+    text-align: start;
+    font-family: "Lato", sans-serif;
+    font-size: 130%;
+    color: #F2EDE4;
+    font-weight: 400;
+}
+
+.formulario-contenedor {
+    width: 400px;
+    height: auto;
+    padding-top: 20px;
+}
+
+.formulario-contenedor h2 {
+    padding-right: 20px;
+    text-align: end;
+    font-family: "Lato", sans-serif;
+    font-size: 130%;
+    color: #F2EDE4;
+    font-weight: 400;
+}
+
+.formulario form {
+    
+    margin: 10px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario form input {
+    border-radius: 6px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 40px;
+
+}
+
+.formulario form input:last-child {
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+/* ********************************************************** FOOTER ****************************************** */
+
+.footer-contenedor {
+    padding-top: 20px;
+    background-color: lightsteelblue;
+    border-top: 2px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logos-contenedor {
+    display: flex;
+    margin-left: 10px;
+}
+
+.footer-contenedor h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    color: #F2EDE4;
+    font-weight: 400;
+    text-align: center;
+}
+
+.logos:hover {
+    transform: scale(1.1);
+}
+
+/* ************************************************** HISTORIA ********************************************* */
+
+/* ************* MAIN *************** */
+
+.historia-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-historia {
+    margin: 20px;
+}
+
+.imagen-historia img {
+    border-radius: 4px;
+}
+
+.texto-historia {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    text-align: center;
+}
+
+.texto-historia p {
+
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+
+
+/* ******** BOOSTRAP ******** */
