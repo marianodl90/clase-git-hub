@@ -257,7 +257,7 @@ body {
 /* ************* MAIN *************** */
 
 .historia-container {
-    
+    background-image: url(../multimedia/pueblo-montaña-2.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
