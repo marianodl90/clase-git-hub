@@ -2,25 +2,21 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-image: url(../multimedia/pueblo-montaña.jpg);
-    background-size: cover;
-    
+   
 }
 
 
 /* ******************************************************** HEADER ********************************************************** */
 
 .grid-container {
-    padding: 7px;
+
     display: flex;
     justify-content: center;
     background-color: #73706E;
     border-bottom: 2px solid #F2EDE4;
+    margin-bottom: 0;
 }
+
 
 .grid-container a {
     text-decoration: none;
@@ -33,6 +29,7 @@ body {
     margin-left: 10px;
     padding: 2px;
     border-radius: 4px;
+    
 }
 
 .item:hover {
@@ -89,13 +86,16 @@ body {
 
 /* ************************************************* PAGINA PRICIPAL ********************************************** */
 .contenedor {
-    width: auto;
-    height: 700px;
-    display: flex;
+    background-image: url(../multimedia/pueblo-montaña-2.jpg);
+    background-size: cover;
+    opacity: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 700px;
+    margin-top: 0;
+   
 }
 
 .titulo h1 {
@@ -257,16 +257,21 @@ body {
 /* ************* MAIN *************** */
 
 .historia-container {
-    background-image: url(../multimedia/pueblo-montaña-2.jpg);
+  
+    background-color: #BFBFBD;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+.contenedor-sombreado {
+    background-color: #73706E;
+    width: 600px;
+    height: 800px;
+    box-shadow: 5px 5px #F2EDE4;
 }
 
-.imagen-historia {
-    margin: 20px;
-}
 
 .imagen-historia img {
     border-radius: 4px;
@@ -286,7 +291,6 @@ body {
     font-size: 100%;
     color: white;
 }
-
 
 
 /* ******** BOOSTRAP ******** */
