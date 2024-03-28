@@ -20,6 +20,8 @@
         href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap"
         rel="stylesheet">
 
+
+
     <!-- CONEXION A CSS -->
 
     <link rel="stylesheet" href="./estilos/style.css">
@@ -27,6 +29,7 @@
 
 
 </head>
+
 <body>
     <header>
         <nav>
@@ -68,20 +71,20 @@
 
     </header>
 
-    
-        <section class="contenedor">
-            <div class="titulo">
-                <h1>SAN RAFAEL MENDOZA</h1>
-            </div>
-            <div class="parrafo">
-                <p> <span id="span">"San Rafael</span> es la segunda ciudad más grande
-                    de la provincia de Mendoza y concentra el
-                    turismo en la zona sur de la provincia. Vení a
-                    disfrutar de sus increibles <span id="span">montañas, lagos, bodegas</span> y su variada
-                    <span id="span">gastronomia</span> para disfrutar en familia."
-                </p>
-            </div>
-        </section>
+
+    <section class="contenedor">
+        <div class="titulo">
+            <h1>SAN RAFAEL MENDOZA</h1>
+        </div>
+        <div class="parrafo">
+            <p> <span id="span">"San Rafael</span> es la segunda ciudad más grande
+                de la provincia de Mendoza y concentra el
+                turismo en la zona sur de la provincia. Vení a
+                disfrutar de sus increibles <span id="span">montañas, lagos, bodegas</span> y su variada
+                <span id="span">gastronomia</span> para disfrutar en familia."
+            </p>
+        </div>
+    </section>
 
     <section class="multimedia-contenedor">
         <div class="sombra">
@@ -102,18 +105,27 @@
                 </div>
             </div>
             <div class="formulario-contenedor">
-                <div class="title-form">
-                    <h2>Quiero conocer más...</h2>
-                </div>
-                <div class="formulario">
-                    <form action="consulta.php" method="POST">
-                        <input class="input" type="text" name="Nombre y Apellido" id="nombre"
-                            placeholder="Ingrese su nombre">
-                        <input class="input" type="text" name="Provincia" id="provincia"
-                            placeholder="Ingrese la provincia donde vive">
-                        <input class="input" type="email" name="Correo" id="correo" placeholder="Ingrese un correo">
-                        <input class="input" type="text" name="Su pregunta no molesta..." id="pregunta"
-                            placeholder="Su pregunta no molesta...">
+                <div class="container">
+                    <form id="contactus" action="" method="post">
+                        <h3>Contactanos</h3>
+
+                        <fieldset>
+                            <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Email" type="email" tabindex="2" required>
+                        </fieldset>
+                        <fieldset>
+                            <input placeholder="Telefono" type="tel" tabindex="3" required>
+                        </fieldset>
+                        <fieldset>
+                            <textarea placeholder="Escriba su mensaje aqui..." tabindex="5" required></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <button name="submit" type="submit" id="contactus-submit"
+                                data-submit="...Sending">Enviar</button>
+                        </fieldset>
+
                     </form>
                 </div>
             </div>
