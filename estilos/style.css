@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 
@@ -364,9 +364,23 @@
     color: #73706E;
 }
 
+/* ****************************************** GALERIA ****************************************** */
+
+.galeria-contenedor{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+}
+.galeria-contenedor img {
+    width: 100%;
+    height: 100%;
+}
+
 /* ******************************************** RESPONSIVE ***************************************** */
 
 @media only screen and (max-width: 940px) {
+    .galeria-contenedor {
+        grid-template-columns: repeat(3, 1fr);
+    }
     .entretenimiento-items {
         display: flex;
         flex-direction: column;
@@ -407,6 +421,9 @@
         display: flex;
         flex-wrap: wrap;
         padding-left: 0;
+    }
+    .galeria-contenedor {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -462,6 +479,9 @@
         justify-content: center;
         }
     }
+    .galeria-contenedor {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
@@ -470,6 +490,7 @@
 
 /* ***************************************** BOOSTRAP ******************************************************** */
 
+/* ******* FORMULARIO INDEX ********** */
 .container {
     width: 400px;
     margin: 30px 0;
@@ -484,9 +505,6 @@
 
 
 }
-
-#contactus {}
-
 #contactus h3 {
     display: block;
     font-size: 30px;
@@ -595,4 +613,10 @@ fieldset {
 }
 #contactus-submit{
     border-radius: 4px;
+}
+
+/* ****** CARRUSEL GALERIA ****** */
+
+.carousel-item img{
+height: 10%;
 }
