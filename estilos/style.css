@@ -9,7 +9,8 @@
 /* ******************************************************** HEADER ********************************************************** */
 
 .grid-container {
-
+    padding-top: 7px;
+    padding-bottom: 0;
     display: flex;
     justify-content: center;
     background-color: #73706E;
@@ -19,7 +20,9 @@
 
 
 .grid-container a {
+    
     text-decoration: none;
+    
 }
 
 .item {
@@ -29,8 +32,9 @@
     margin-left: 10px;
     padding: 2px;
     border-radius: 4px;
-
+    
 }
+
 
 .item:hover {
     background-color: #F2EDE4;
@@ -236,13 +240,13 @@
     border-top: 2px solid whitesmoke;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: center; 
 }
 
 .logos-contenedor {
     display: flex;
     margin-left: 10px;
+    
 }
 
 .footer-contenedor h3 {
