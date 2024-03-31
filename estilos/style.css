@@ -20,9 +20,9 @@
 
 
 .grid-container a {
-    
+
     text-decoration: none;
-    
+
 }
 
 .item {
@@ -32,7 +32,7 @@
     margin-left: 10px;
     padding: 2px;
     border-radius: 4px;
-    
+
 }
 
 
@@ -100,7 +100,7 @@
     align-items: center;
     height: 700px;
     margin-top: 0;
-    
+
 }
 
 .titulo h1 {
@@ -240,13 +240,13 @@
     border-top: 2px solid whitesmoke;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .logos-contenedor {
     display: flex;
     margin-left: 10px;
-    
+
 }
 
 .footer-contenedor h3 {
@@ -289,7 +289,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .imagen-historia {
@@ -366,28 +366,90 @@
 
 /* ****************************************** GALERIA ****************************************** */
 
-.galeria-contenedor{
-    display: grid; 
+.galeria-contenedor {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+    overflow: hidden;
+    grid-gap: 10px;
+}
+
+.galeria > a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 .galeria-contenedor img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.5s;
+    border-radius: 4px;
+    vertical-align: top;
+    height: 300px;
 }
+
+
+.galeria-contenedor a:hover img {
+    
+    transform: rotate(5deg) scale(1.1);
+}
+
+.light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: transform .3s ease-in-out;
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+.light-box img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+
+.light-box:target {
+    transform: scale(1);
+}
+.close{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: #851919;
+    color: #F2EDE4;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+}
+
+
 /* ******************************************** RESPONSIVE ***************************************** */
 
 @media only screen and (max-width: 940px) {
     .galeria-contenedor {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .entretenimiento-items {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
     .texto {
         margin: 0;
         width: 80%;
@@ -406,22 +468,26 @@
     }
 
 }
+
 @media only screen and (max-width: 863px) {
     .contenedor-sombreado {
-      width: 90%;
-      height: auto;
+        width: 90%;
+        height: auto;
     }
+
     .historia-container {
         height: auto;
         padding: 10px;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .grid-container {
         display: flex;
         flex-wrap: wrap;
         padding-left: 0;
     }
+
     .galeria-contenedor {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -470,15 +536,18 @@
             padding-top: 190px;
             padding-bottom: 170px;
         }
+
         .imagen-historia img {
             width: 90%;
-            
+
         }
+
         .imagen-historia {
-        display: flex;
-        justify-content: center;
+            display: flex;
+            justify-content: center;
         }
     }
+
     .galeria-contenedor {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -505,6 +574,7 @@
 
 
 }
+
 #contactus h3 {
     display: block;
     font-size: 30px;
@@ -560,7 +630,7 @@ fieldset {
     cursor: pointer;
     width: 100%;
     border: none;
-    background:#73706E;
+    background: #73706E;
     color: #FFF;
     margin: 0 0 5px;
     padding: 10px;
@@ -608,15 +678,17 @@ fieldset {
     margin: 0;
     padding: 0;
 }
+
 #contactus h3 {
     color: #73706E;
 }
-#contactus-submit{
+
+#contactus-submit {
     border-radius: 4px;
 }
 
 /* ****** CARRUSEL GALERIA ****** */
 
-.carousel-item img{
-height: 10%;
+.carousel-item img {
+    height: 10%;
 }
