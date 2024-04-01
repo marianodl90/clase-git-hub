@@ -485,6 +485,12 @@
     color: #73706E;
     font-weight: 400;
 }
+.horarios {
+    border-bottom: 2px solid #73706E;
+}
+span {
+    font-weight: 900;
+}
 .horarios p {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
