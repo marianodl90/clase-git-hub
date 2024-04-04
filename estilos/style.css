@@ -414,7 +414,16 @@
 }
 
 /* ******************************************** INFORMACION ************************************* */
-
+.contenedor-imagen-aloja {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-bottom: 0;
+}
+.contenedor-imagen-aloja img {
+    width: 90%;
+    height: 80%;
+}
 .contenedor-titulo {
     display: flex;
     flex-direction: column;
@@ -443,7 +452,7 @@
 }
 
 .contenedor-informacion {
-    margin: 30px;
+    text-align: center;
 }
 
 .info1 {
@@ -506,7 +515,7 @@ span {
     font-weight: 200;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 15px;
+    margin-left: 15node -vpx;
 }
 .numeros p:hover {
     
