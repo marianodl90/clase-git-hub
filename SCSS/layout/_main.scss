@@ -1,0 +1,45 @@
+main {
+    .contenedor {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../multimedia/pueblo-montaña-2.jpg);
+        background-size: cover;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        margin-top: 0;
+
+        .titulo {
+            h1 {
+                font-family: "Lato", sans-serif;
+                font-size: 5rem;
+                color: #F2EDE4;
+                font-weight: bold;
+            }
+        }
+
+        .parrafo {
+            margin-top: 30px;
+            padding: 20px;
+            width: 900px;
+            height: 400px;
+
+            p {
+                text-align: center;
+                font-family: "Lato", sans-serif;
+                font-size: 20px;
+                color: #F2EDE4;
+
+                #span {
+                    font-family: "Lato", sans-serif;
+                    font-size: 150%;
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
+}

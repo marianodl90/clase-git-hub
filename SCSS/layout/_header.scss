@@ -1,0 +1,38 @@
+header {
+    nav {
+        .grid-container {
+            padding-top: 7px;
+            padding-bottom: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #73706E;
+            border-bottom: 2px solid #F2EDE4;
+            margin-bottom: 0;
+
+            .item {
+                list-style: none;
+                width: auto;
+                height: 30px;
+                margin-left: 10px;
+                padding: 2px;
+
+                a {
+                    text-decoration: none;
+                    color: #F2EDE4;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .wasap {
+        width: 30px;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        z-index: 1;
+    }
+}
