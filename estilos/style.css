@@ -195,5 +195,41 @@ main .contenedor .parrafo p #span {
 .footer-contenedor .logos-contenedor .logos:hover {
   transform: scale(1.1);
 }
+main .entretenimiento-contenedor {
+  background-color: #F2EDE4;
+  display: block;
+  padding: 20px;
+}
+main .entretenimiento-contenedor .entretenimiento-items {
+  display: flex;
+  align-items: center;
+}
+main .entretenimiento-contenedor .entretenimiento-items .imagen-item img {
+  margin: 10px;
+  border-radius: 4px;
+  width: 500px;
+  height: 300px;
+}
+main .entretenimiento-contenedor .entretenimiento-items .texto {
+  background-color: #BFBFBD;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  box-shadow: 2px 5px 5px 2px;
+  border-radius: 4px;
+}
+main .entretenimiento-contenedor .entretenimiento-items .texto h2 {
+  color: #73706E;
+}
+main .entretenimiento-contenedor .entretenimiento-items .texto p {
+  color: #73706E;
+}
 
 /*# sourceMappingURL=style.css.map */
