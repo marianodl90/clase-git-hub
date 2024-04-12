@@ -1,0 +1,36 @@
+.footer-contenedor {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #BFBFBD;
+    border-top: 2px solid #73706E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        h3 {
+            font-family: "Lato", sans-serif;
+            font-size: 25px;
+            color: #202020;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+
+    .logos-contenedor {
+        display: flex;
+        margin-left: 10px;
+        flex-wrap: wrap;
+        margin-right: 30px;
+
+        .logos {
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            a {
+                img {}
+            }
+        }
+    }
+}

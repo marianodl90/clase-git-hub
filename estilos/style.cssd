@@ -1,6 +1,6 @@
 @charset "UTF-8";
 header nav .grid-container {
-  padding-top: 30px;
+  padding-top: 7px;
   padding-bottom: 0;
   display: flex;
   justify-content: center;
@@ -18,7 +18,6 @@ header nav .grid-container .item {
 header nav .grid-container .item a {
   text-decoration: none;
   color: #F2EDE4;
-  font-size: 20px;
 }
 header nav .grid-container .item a:hover {
   text-decoration: underline;
@@ -113,10 +112,6 @@ main .contenedor .parrafo p #span {
   width: 100%;
   height: 100%;
 }
-.multimedia-contenedor .sombra .ubicacion-video .video iframe:hover {
-  transform: scale(1.3);
-  transition: 0.3s;
-}
 .multimedia-contenedor .sombra .formulario-contenedor {
   width: 400px;
   height: auto;
@@ -128,72 +123,20 @@ main .contenedor .parrafo p #span {
   display: flex;
   flex-direction: column;
 }
-.multimedia-contenedor .sombra .formulario-contenedor .container #contactus h3 {
-  text-align: start;
-  font-family: "Lato", sans-serif;
-  font-size: 130%;
-  color: #F2EDE4;
-  font-weight: 400;
-}
-.multimedia-contenedor .sombra .formulario-contenedor .container #contactus fieldset {
-  border: 2px solid #73706E;
-  border: none;
-}
 .multimedia-contenedor .sombra .formulario-contenedor .container #contactus fieldset input {
   border-radius: 6px;
   background-color: whitesmoke;
   width: 100%;
   height: 40px;
-  margin: 10px 0;
-  border: none;
 }
-.multimedia-contenedor .sombra .formulario-contenedor .container #contactus fieldset textarea {
-  width: 100%;
-  height: 200px;
-  border-radius: 5px;
-  border: none;
+.multimedia-contenedor .sombra .formulario-contenedor .container #contactus fieldset input:last-child {
+  height: 120px;
+  margin-bottom: 20px;
 }
-.multimedia-contenedor .sombra .formulario-contenedor .container #contactus fieldset #contactus-submit {
-  width: 100%;
-  height: 40px;
-  background-color: lightcoral;
-  border-radius: 10px;
-  border: none;
-}
-.multimedia-contenedor .sombra .formulario-contenedor .container #contactus fieldset #contactus-submit:hover {
-  cursor: pointer;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.footer-contenedor {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #BFBFBD;
-  border-top: 2px solid #73706E;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer-contenedor div h3 {
-  font-family: "Lato", sans-serif;
-  font-size: 25px;
-  color: #202020;
-  font-weight: 400;
-  text-align: center;
-}
-.footer-contenedor .logos-contenedor {
-  display: flex;
-  margin-left: 10px;
-  flex-wrap: wrap;
-  margin-right: 30px;
-}
-.footer-contenedor .logos-contenedor .logos:hover {
-  transform: scale(1.1);
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cssd.map */
