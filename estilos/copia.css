@@ -1,129 +1,42 @@
 
 
-/* ************************************************** HISTORIA ********************************************* */
-
-/* ************* MAIN *************** */
-
-.historia-container {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    height: 600px;
-    background-color: #F2EDE4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.contenedor-sombreado {
-    margin: 50px 0;
-    padding: 10px;
-    background-color: #BFBFBD;
-    width: 850px;
-    height: 500px;
-    box-shadow: 15px 15px #73706E;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.imagen-historia {
-    margin-top: 10px;
-}
-
-.imagen-historia img {
-    margin-bottom: 20px;
-    border-radius: 4px;
-}
-
-.texto-historia {
-    width: auto;
-    height: auto;
-    display: flex;
-    text-align: center;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
-}
-
-.texto-historia p {
-
-
-    text-align: justify;
-    font-family: "Lato", sans-serif;
-    font-size: 100%;
-    color: #73706E;
-    font-weight: 500;
-}
-
-
 
 /* ******************************************** INFORMACION ************************************* */
 .contenedor-imagen-aloja {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-    margin-bottom: 0;
+    
 }
 
 .contenedor-imagen-aloja img {
-    width: 90%;
-    height: 80%;
+    
 }
 
 .contenedor-titulo {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin: 50px 30px;
+   
 
 }
 
 .contenedor-titulo h1 {
-    font-family: "Lato", sans-serif;
-    font-size: 5rem;
-    color: #73706E;
-    font-weight: bold;
+    
 }
 
 .contenedor-titulo p {
-    padding: 30px 70px;
-    padding-bottom: 0;
-    line-height: 30px;
-    font-family: "Lato", sans-serif;
-    font-size: 1rem;
-    color: #73706E;
-    font-weight: bold;
-    text-align: center;
+    
 }
 
 .contenedor-informacion {
-    text-align: center;
+   
 }
 
 .info1 {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    
 }
 
 .info1 p {
-    font-family: "Lato", sans-serif;
-    font-size: 1rem;
-    color: #73706E;
-    font-weight: 200;
-    padding: 6px;
+    
 }
 
 .info2 h2 {
-    font-family: "Lato", sans-serif;
-    font-size: 3rem;
-    color: #73706E;
-    font-weight: bold;
-    padding: 20px;
+   
 }
 
 .info2 p {
@@ -135,25 +48,19 @@
 }
 
 .parrafo-principal {
-    margin: 20px;
-    padding: 0 20px;
+    
 }
 
 .horarios {
-    border-bottom: 2px solid #73706E;
+   
 }
 
 span {
-    font-weight: 900;
+    
 }
 
 .horarios p {
-    font-family: "Lato", sans-serif;
-    font-size: 1rem;
-    color: #73706E;
-    font-weight: 200;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    
 }
 
 .contenedor-telefonos {

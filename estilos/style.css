@@ -334,4 +334,123 @@ main .historia-container .texto-historia p {
   font-weight: 500;
 }
 
+main .contenedor-titulo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 50px 30px;
+  align-items: center;
+}
+main .contenedor-titulo h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 5rem;
+  color: #73706E;
+  font-weight: bold;
+}
+main .contenedor-titulo p {
+  width: 50%;
+  padding-bottom: 0;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #73706E;
+  font-weight: bold;
+  text-align: center;
+}
+main section .contenedor-imagen-aloja {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  margin-bottom: 0;
+}
+main section .contenedor-imagen-aloja img {
+  width: 90%;
+  height: 80%;
+}
+main .contenedor-informacion {
+  text-align: center;
+}
+main .contenedor-informacion .info1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+main .contenedor-informacion .info1 p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #73706E;
+  font-weight: 200;
+  padding: 6px;
+}
+main .contenedor-informacion .info2 h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: #73706E;
+  font-weight: bold;
+  padding: 20px;
+}
+main .contenedor-informacion .info2 p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #73706E;
+  font-weight: 200;
+  padding: 6px;
+}
+main .contenedor-informacion .info2 p .parrafo-principal {
+  margin: 20px;
+  padding: 0 20px;
+}
+main .contenedor-informacion .horarios {
+  border-bottom: 2px solid #73706E;
+}
+main .contenedor-informacion .horarios p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #73706E;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+main .contenedor-informacion .horarios p span {
+  font-weight: 900;
+}
+main .contenedor-informacion .info2 .horarios p span {
+  font-weight: 900;
+}
+
+.contenedor-telefonos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #73706e;
+  height: 100px;
+}
+.contenedor-telefonos div .titulo-telefonos {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  color: #F2EDE4;
+  font-weight: 200;
+  padding: 20px;
+  padding-left: 25px;
+}
+.contenedor-telefonos .numeros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contenedor-telefonos .numeros p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #F2EDE4;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 15px;
+}
+.contenedor-telefonos .numeros p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
