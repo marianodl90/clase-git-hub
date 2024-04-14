@@ -472,6 +472,92 @@ main .contenedor-informacion .info2 .horarios p span {
     justify-content: center;
   }
 }
+@media only screen and (max-width: 1000px) {
+  main .galeria-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    overflow: hidden;
+    grid-gap: 10px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  main .galeria-contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    overflow: hidden;
+    grid-gap: 10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  main .galeria-contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main .galeria-contenedor .light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    height: 60vh;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+  }
+  main .galeria-contenedor .light-box img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  main .galeria-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    overflow: hidden;
+    grid-gap: 10px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  main .galeria-contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    overflow: hidden;
+    grid-gap: 10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  main .galeria-contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main .galeria-contenedor .light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    height: 60vh;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+  }
+  main .galeria-contenedor .light-box img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+}
 @media only screen and (max-width: 600px) {
   .grid-container {
     display: flex;
