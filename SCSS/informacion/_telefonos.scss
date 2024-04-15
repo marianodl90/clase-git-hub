@@ -1,22 +1,34 @@
-.contenedor-telefonos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #73706e;
-    height: 100px;
+body {
+    .contenedor-telefonos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #73706e;
+        height: 100px;
 
-    div {
+        div {
 
-        .titulo-telefonos {
-            font-family: "Lato", sans-serif;
-            font-size: 2rem;
-            color: #F2EDE4;
-            font-weight: 200;
-            padding: 20px;
-            padding-left: 25px;
+            .titulo-telefonos {
+                font-family: "Lato", sans-serif;
+                font-size: 2rem;
+                color: #F2EDE4;
+                font-weight: 200;
+                padding: 20px;
+                padding-left: 25px;
+            }
+
         }
 
-    }
+        .numeros {
+            display: flex;
 
-    
+            p{
+                font-family: "Lato", sans-serif;
+                font-size: 1rem;
+                color: #F2EDE4;
+                margin: 0 10px;
+                padding: 0 10px;
+            }
+        }
+    }
 }
