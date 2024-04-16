@@ -590,6 +590,103 @@ body .contenedor-telefonos .numeros p {
     height: 90%;
   }
 }
+@media only screen and (max-width: 890px) {
+  main .contenedor .titulo h1 {
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  main .contenedor .parrafo {
+    margin-top: 30px;
+    padding: 0px;
+    width: 95%;
+    height: 55%;
+  }
+  main .contenedor .parrafo p {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #F2EDE4;
+  }
+  main .contenedor .parrafo p #span {
+    font-family: "Lato", sans-serif;
+    font-size: 150%;
+    color: white;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .multimedia-contenedor .sombra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .multimedia-contenedor {
+    padding: 20px;
+  }
+  .multimedia-contenedor .sombra {
+    width: 100%;
+    box-shadow: none;
+  }
+  .multimedia-contenedor .sombra .formulario-contenedor {
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+  }
+  .multimedia-contenedor .sombra .formulario-contenedor .container #contactus {
+    margin: 10px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .multimedia-contenedor .sombra .formulario-contenedor .container #contactus h3 {
+    text-align: start;
+    font-family: "Lato", sans-serif;
+    font-size: 130%;
+    color: #F2EDE4;
+    font-weight: 400;
+  }
+  .multimedia-contenedor .sombra .formulario-contenedor .container #contactus fieldset {
+    border: 2px solid #73706E;
+    border: none;
+  }
+  .multimedia-contenedor .sombra .formulario-contenedor .container #contactus fieldset input {
+    border-radius: 6px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border: none;
+  }
+  .multimedia-contenedor .sombra .formulario-contenedor .container #contactus fieldset textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border: none;
+  }
+  .multimedia-contenedor .sombra .formulario-contenedor .container #contactus fieldset #contactus-submit {
+    width: 100%;
+    height: 40px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    border: none;
+  }
+}
+@media only screen and (max-width: 420px) {
+  main .contenedor .titulo h1 {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 330px) {
+  main .contenedor .titulo h1 {
+    font-size: 3rem;
+  }
+}
 @media only screen and (max-width: 850px) {
   body .contenedor-telefonos {
     width: auto;
@@ -758,12 +855,12 @@ body .contenedor-telefonos .numeros p {
     align-items: center;
   }
 }
-@media only screen and (max-width: 350px) {
-  .grid-container {
+@media only screen and (max-width: 300px) {
+  header nav .grid-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 0px;
   }
 }
 

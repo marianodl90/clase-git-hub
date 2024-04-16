@@ -11,9 +11,9 @@
         .footer-contenedor {
             display: block;
             justify-content: center;
-            
-            div{
-                h3{
+
+            div {
+                h3 {
                     margin-bottom: 10px;
                 }
             }
@@ -23,18 +23,22 @@
                 flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
-
             }
         }
     }
+
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 300px) {
+    header {
+        nav {
+            .grid-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 0px;
 
-    .grid-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+            }
+        }
     }
 }
