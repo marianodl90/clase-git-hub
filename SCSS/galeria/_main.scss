@@ -1,3 +1,4 @@
+
 main {
     .galeria-contenedor {
         display: grid;
@@ -15,6 +16,10 @@ main {
                 border-radius: 4px;
                 vertical-align: top;
                 height: 300px;
+
+                &:target{
+                    position: fixed;
+                }
             }
 
             &:hover {
@@ -39,6 +44,7 @@ main {
             transform: scale(0);
 
             img {
+                
                 width: 70%;
                 height: 70%;
                 object-fit: cover;

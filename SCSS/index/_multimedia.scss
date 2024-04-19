@@ -46,11 +46,11 @@
             }
 
             .video {
-                iframe {
+                iframe {       
                     border-radius: 6px;
                     width: 100%;
                     height: 100%;
-
+                    
                     &:hover {
                         transform: scale(1.3);
                         transition: 0.3s;

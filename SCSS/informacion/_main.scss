@@ -1,3 +1,16 @@
+$tamaño: 1rem;
+$letra: "Lato", sans-serif;
+
+
+@mixin parrafos {
+    
+    font-family: $letra;
+    font-size: $tamaño;
+    color: #73706E;
+    font-weight: 300;
+   
+}
+
 main {
     .contenedor-titulo {
         display: flex;
@@ -15,15 +28,13 @@ main {
         }
 
         p {
+            @include parrafos();
             width: 50%;
             padding-bottom: 0;
             line-height: 30px;
-            font-family: "Lato", sans-serif;
-            font-size: 1rem;
-            color: #73706E;
-            font-weight: bold;
             text-align: center;
-            
+
+
         }
     }
 
@@ -49,17 +60,14 @@ main {
             margin-bottom: 40px;
 
             p {
-                font-family: "Lato", sans-serif;
-                font-size: 1rem;
-                color: #73706E;
-                font-weight: 200;
+                @include parrafos();
                 padding: 6px;
             }
         }
 
         .info2 {
             h2 {
-                font-family: "Lato", sans-serif;
+                font-family: $letra;
                 font-size: 3rem;
                 color: #73706E;
                 font-weight: bold;
@@ -67,10 +75,7 @@ main {
             }
 
             p {
-                font-family: "Lato", sans-serif;
-                font-size: 1rem;
-                color: #73706E;
-                font-weight: 200;
+                @include parrafos();
                 padding: 6px;
 
                 .parrafo-principal {
@@ -84,10 +89,7 @@ main {
             border-bottom: 2px solid #73706E;
 
             p {
-                font-family: "Lato", sans-serif;
-                font-size: 1rem;
-                color: #73706E;
-                font-weight: 200;
+                @include parrafos();
                 padding-top: 5px;
                 padding-bottom: 5px;
 

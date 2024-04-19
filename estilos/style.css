@@ -24,11 +24,16 @@ header nav .grid-container .item a:hover {
   text-decoration: underline;
 }
 header .wasap {
-  width: 30px;
+  width: 48px;
   position: fixed;
-  bottom: 5px;
-  right: 5px;
+  bottom: 15px;
+  right: 15px;
   z-index: 1;
+}
+header .wasap:hover {
+  width: 48px;
+  transform: rotate(360deg) translateY(-20px) translateX(-20px) scale(1.5);
+  transition: 1s;
 }
 
 main .contenedor {
@@ -250,6 +255,9 @@ main .galeria-contenedor a img {
   vertical-align: top;
   height: 300px;
 }
+main .galeria-contenedor a img:target {
+  position: fixed;
+}
 main .galeria-contenedor a:hover img {
   transform: scale(1.1);
 }
@@ -351,13 +359,13 @@ main .contenedor-titulo h1 {
   font-weight: bold;
 }
 main .contenedor-titulo p {
-  width: 50%;
-  padding-bottom: 0;
-  line-height: 30px;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: #73706E;
-  font-weight: bold;
+  font-weight: 300;
+  width: 50%;
+  padding-bottom: 0;
+  line-height: 30px;
   text-align: center;
 }
 main section .contenedor-imagen-aloja {
@@ -381,7 +389,7 @@ main .contenedor-informacion .info1 p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: #73706E;
-  font-weight: 200;
+  font-weight: 300;
   padding: 6px;
 }
 main .contenedor-informacion .info2 h2 {
@@ -395,7 +403,7 @@ main .contenedor-informacion .info2 p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: #73706E;
-  font-weight: 200;
+  font-weight: 300;
   padding: 6px;
 }
 main .contenedor-informacion .info2 p .parrafo-principal {
@@ -409,7 +417,7 @@ main .contenedor-informacion .horarios p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: #73706E;
-  font-weight: 200;
+  font-weight: 300;
   padding-top: 5px;
   padding-bottom: 5px;
 }
