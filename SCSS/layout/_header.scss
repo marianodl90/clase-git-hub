@@ -1,6 +1,7 @@
 header {
     nav {
         .grid-container {
+            background-image: linear-gradient(to top, #73706E, #F2EDE4);
             padding-top: 30px;
             padding-bottom: 0;
             display: flex;
@@ -20,6 +21,7 @@ header {
                     text-decoration: none;
                     color: #F2EDE4;
                     font-size: 20px;
+                    text-transform: uppercase;
 
                     &:hover {
                         text-decoration: underline;

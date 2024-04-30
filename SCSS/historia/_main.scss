@@ -2,7 +2,7 @@ main {
     .historia-container {
         padding-top: 80px;
         padding-bottom: 80px;
-        height: 600px;
+        height: 100%;
         background-color: #F2EDE4;
         display: flex;
         flex-direction: column;
@@ -22,31 +22,60 @@ main {
             justify-content: center;
             align-items: center;
 
+            @keyframes sombreados {
+
+                0% {
+                    box-shadow: 1px 1px #73706E;
+                    border-radius: 5px;
+                }
+
+                50% {
+                    box-shadow: 10px 10px 10px 10px #73706E;
+                    border-radius: 5px;
+                    
+
+                }
+
+                100% {
+                    box-shadow: 1px 1px #73706E;
+                    border-radius: 5px;
+
+                }
+            }
+
             .imagen-historia {
                 margin-top: 10px;
-            }
 
-            img {
-                margin-bottom: 20px;
-                border-radius: 4px;
-            }
-        }
+                img {
+                    margin-bottom: 20px;
+                    border-radius: 4px;
 
-        .texto-historia {
-            width: auto;
-            height: auto;
-            display: flex;
-            text-align: center;
-            margin-bottom: 50px;
-            flex-wrap: wrap;
-
-            p {
-                text-align: justify;
-                font-family: "Lato", sans-serif;
-                font-size: 100%;
-                color: #73706E;
-                font-weight: 500;
+                    animation-name: sombreados;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                    animation-duration: 3s;
+                }
             }
         }
+
+    }
+
+}
+
+
+.texto-historia {
+    width: auto;
+    height: auto;
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+    p {
+        text-align: justify;
+        font-family: "Lato", sans-serif;
+        font-size: 100%;
+        color: #73706E;
+        font-weight: 500;
     }
 }

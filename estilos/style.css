@@ -1,5 +1,6 @@
 @charset "UTF-8";
 header nav .grid-container {
+  background-image: linear-gradient(to top, #73706E, #F2EDE4);
   padding-top: 30px;
   padding-bottom: 0;
   display: flex;
@@ -19,6 +20,7 @@ header nav .grid-container .item a {
   text-decoration: none;
   color: #F2EDE4;
   font-size: 20px;
+  text-transform: uppercase;
 }
 header nav .grid-container .item a:hover {
   text-decoration: underline;
@@ -37,7 +39,7 @@ header .wasap:hover {
 }
 
 main .contenedor {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../multimedia/pueblo-montaña-2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../multimedia/imagenes-san-rafael/pueblo-montaña-2.jpg);
   background-size: cover;
   opacity: 1;
   display: flex;
@@ -80,6 +82,7 @@ main .contenedor .parrafo p #span {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  height: auto;
 }
 .multimedia-contenedor .sombra {
   padding-top: 10px;
@@ -176,10 +179,11 @@ main .contenedor .parrafo p #span {
 }
 
 .footer-contenedor {
+  background-image: linear-gradient(to bottom, #737373, #BFBFBD);
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #BFBFBD;
-  border-top: 2px solid #73706E;
+  border-top: 2px solid #BFBFBD;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,7 +205,8 @@ main .contenedor .parrafo p #span {
   transform: scale(1.1);
 }
 .entretenimiento-contenedor main {
-  background-color: #F2EDE4;
+  background-image: radial-gradient(circle, #747474, #f2ede4);
+  /*background-color: #F2EDE4;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -301,7 +306,7 @@ main .galeria-contenedor .light-box .close {
 main .historia-container {
   padding-top: 80px;
   padding-bottom: 80px;
-  height: 600px;
+  height: 100%;
   background-color: #F2EDE4;
   display: flex;
   flex-direction: column;
@@ -321,14 +326,33 @@ main .historia-container .contenedor-sombreado {
   justify-content: center;
   align-items: center;
 }
+@keyframes sombreados {
+  0% {
+    box-shadow: 1px 1px #73706E;
+    border-radius: 5px;
+  }
+  50% {
+    box-shadow: 10px 10px 10px 10px #73706E;
+    border-radius: 5px;
+  }
+  100% {
+    box-shadow: 1px 1px #73706E;
+    border-radius: 5px;
+  }
+}
 main .historia-container .contenedor-sombreado .imagen-historia {
   margin-top: 10px;
 }
-main .historia-container .contenedor-sombreado img {
+main .historia-container .contenedor-sombreado .imagen-historia img {
   margin-bottom: 20px;
   border-radius: 4px;
+  animation-name: sombreados;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 3s;
 }
-main .historia-container .texto-historia {
+
+.texto-historia {
   width: auto;
   height: auto;
   display: flex;
@@ -336,7 +360,7 @@ main .historia-container .texto-historia {
   margin-bottom: 50px;
   flex-wrap: wrap;
 }
-main .historia-container .texto-historia p {
+.texto-historia p {
   text-align: justify;
   font-family: "Lato", sans-serif;
   font-size: 100%;
@@ -435,13 +459,23 @@ body .contenedor-telefonos {
   background-color: #73706e;
   height: 100px;
 }
-body .contenedor-telefonos div .titulo-telefonos {
+body .contenedor-telefonos .caja-telefono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+body .contenedor-telefonos .caja-telefono .imagen-telefono {
+  padding: 0;
+  margin: 0;
+}
+body .contenedor-telefonos .caja-telefono .titulo-telefonos h3 {
+  margin: 0;
+  padding: 0;
   font-family: "Lato", sans-serif;
   font-size: 2rem;
   color: #F2EDE4;
   font-weight: 200;
-  padding: 20px;
-  padding-left: 25px;
 }
 body .contenedor-telefonos .numeros {
   display: flex;
@@ -858,6 +892,7 @@ body .contenedor-telefonos .numeros p {
   }
   footer .footer-contenedor .logos-contenedor {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
