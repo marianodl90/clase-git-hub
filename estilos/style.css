@@ -970,6 +970,7 @@ body .contenedor-telefonos .numeros p {
 .tarjetas-contenedor .tarjeta a {
   text-decoration: none;
   margin: 20px 10px;
+  font-family: "Lato", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
