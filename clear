@@ -1,0 +1,227 @@
+[33mcommit f8d1c9b3e5c6f0cb748c030a9355b690e3d0715b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Fri Apr 19 00:57:14 2024 -0300
+
+    Agregamos texto real al archivo ENTRETENIMIENTO
+
+[33mcommit e61ea2699ed0d3055a8abfc981d601deeefabaa1[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Fri Apr 19 00:43:06 2024 -0300
+
+    HICIMOS MODIFICACIONES IMPORTANTES PARA EL ENTREGABLE 3 ANOTADAS EN EL ARCHIVO README CON FECHA 18/4
+
+[33mcommit 72d32592f561914420c8e17ee709f3b37487d021[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Wed Apr 17 12:42:01 2024 -0300
+
+    agregamos 2 archivos secretos a gitignore
+
+[33mcommit 72f54e5842cd1f1259d9e8a1c5728ad79e970d79[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Wed Apr 17 12:39:04 2024 -0300
+
+    ajustes
+
+[33mcommit 15c3c9fe602d2949ee3e021ef473ccd80ee5624c[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Wed Apr 17 11:54:12 2024 -0300
+
+    agregando archivo a gitignore
+
+[33mcommit d59319f2c44f5b6d86e9a7be1dc155badb3cb577[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Tue Apr 16 00:54:25 2024 -0300
+
+    ajustes responsive finales
+
+[33mcommit 102935a05e5216156d781230c51a03b552698b90[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Tue Apr 16 00:50:12 2024 -0300
+
+    Hicimos RESPONSIVE el archivo INDEX
+
+[33mcommit c3be28c465ac791d78af08f88d8b9c18a9e036f8[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Mon Apr 15 01:57:00 2024 -0300
+
+    Hicimos RESPONSIVE el archivo INFORMACION
+
+[33mcommit 47593bd46d05a661d526c3b7573d05350c8a0471[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sun Apr 14 20:49:30 2024 -0300
+
+    Hicimos RESPONSIVE el archivo HISTORIA
+
+[33mcommit 4ef28eb70508c4840d5d0a99763e54cb0d08645c[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sun Apr 14 20:31:57 2024 -0300
+
+    Hicimos RESPONSIVE el archivo GALERIA
+
+[33mcommit 2f29d48f8150546ff54167720024f086e97958a0[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sun Apr 14 18:25:28 2024 -0300
+
+    Hicimos RESPONSIVE archivo ENTRETENIMIENTO
+
+[33mcommit 566088fb432249606f7a5de97653d3bdbc2298c8[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Fri Apr 12 02:26:37 2024 -0300
+
+    Conectamos BOOSTRAPS en INDEX
+
+[33mcommit 23916dc7891b08f4b8c1c06eabe0812510536242[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Fri Apr 12 02:16:18 2024 -0300
+
+    Terrminamos de mudar de informacion de CSS a SASS
+
+[33mcommit 8f78387dd0ae0185468df65982db313a12cb5642[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Fri Apr 12 01:31:12 2024 -0300
+
+    Terminamos mudanza de historia de CSS a SASS
+
+[33mcommit 0130d493128ad5d3aecc719a27b7e262926523e6[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Fri Apr 12 01:21:13 2024 -0300
+
+    Terminamos mudanza de galeria de CSS a SASS
+
+[33mcommit 5404431a71fa9f6326b2adc1fbe971c4e1c1ebcc[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Fri Apr 12 01:08:56 2024 -0300
+
+    Terminamos mudanza de entretenimiento de CSS a SASS
+
+[33mcommit af33afb65d9bccb12e036dbee099d9111c8cf63a[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Fri Apr 12 00:48:09 2024 -0300
+
+    finalizamos traspaso index CSS a SASS
+
+[33mcommit 041ea6dbabd452354cd871e8332ebd48d227f746[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Thu Apr 11 15:32:50 2024 -0300
+
+    mudando css de INDEX  a SASS
+
+[33mcommit 40c54a61b99fd9e0287e8fa404c1221ab2ea61c3[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Thu Apr 11 14:25:57 2024 -0300
+
+    oscurecimos imagen fondo
+
+[33mcommit 453df72e61a815dc879fb9d65a4c1b6d9d36e8d3[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Thu Apr 11 14:02:45 2024 -0300
+
+    cambios
+
+[33mcommit a7d0192b24b8fe2348f9278cb88265e054825faa[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Thu Apr 4 15:23:53 2024 -0300
+
+    Terminamos de hacer responsive todo el proyecto
+
+[33mcommit 3b92dbbedfcd037e407d3188a85129d6e8692052[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Thu Apr 4 00:49:23 2024 -0300
+
+    agregamos SASS y SCSS
+
+[33mcommit e6d26a671483d1b5736da88d8ccfc3d0f9bcae8d[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Mon Apr 1 01:55:49 2024 -0300
+
+    modificaciones a informacion
+
+[33mcommit 110d642facc2b01cd4fbea1521bd4861a86243f4[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Mon Apr 1 00:37:48 2024 -0300
+
+    dando estilo a informacion
+
+[33mcommit 7e3474339c651a079593aa634e46640fea3049b2[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sun Mar 31 20:10:43 2024 -0300
+
+    agreganos archivos readme y gitignore
+
+[33mcommit 34c6878dc2d51e11fa045697f8866b6e356c105c[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sun Mar 31 20:06:46 2024 -0300
+
+    Eliminamos archivo alojamientos y creamos archivo informacion
+
+[33mcommit d60728c55d1e29fea1e6ce8d23d517cdbeac4b66[m[33m ([m[1;32mgaleria-animada[m[33m)[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sun Mar 31 11:40:18 2024 -0300
+
+    terminamos animacion galeria
+
+[33mcommit 4a3f7c2faf2a21a226e3e1494086c81fda7a7c4a[m[33m ([m[1;32malojamiento[m[33m)[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sat Mar 30 09:18:07 2024 -0300
+
+    SITIIO WEB LISTO, SOLO FALTA DAR ESTILO A ALOJAMENTOS
+
+[33mcommit 00925a2c7cb9f2bb7e926b1d713a3bebf2d903f1[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sat Mar 30 08:52:34 2024 -0300
+
+    Dimos estilos a GALERIA IMAGENES y lo hicimos responsive
+
+[33mcommit bd21130ebbdf5c5261292da740d15ee11d7b6834[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sat Mar 30 07:34:14 2024 -0300
+
+    Agregamos etiqueta MAIN a todos los archivos html
+
+[33mcommit 9889068d5447073d6082a255c3d61baaa164e339[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sat Mar 30 07:23:14 2024 -0300
+
+    Hicimos responsive Historia
+
+[33mcommit 63494e1e8118daf39695b6cf34f447e2c1c6e894[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Sat Mar 30 06:45:57 2024 -0300
+
+    footer y header del index estan rotos
+
+[33mcommit 85d63eb3d4b600135b64862cdaf100115d109483[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Thu Mar 28 13:53:58 2024 -0300
+
+    Colocamos un formulario de boostrap
+
+[33mcommit 1db74fd78c00fff68f8a192ffe129a426b675673[m[33m ([m[1;32mtesting[m[33m, [m[1;32mMariano[m[33m)[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Thu Mar 28 02:52:57 2024 -0300
+
+    Hicimos responsive a entretenimiento
+
+[33mcommit a1f75cb1a9f49900e7361358bcb733f5dba81a82[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Wed Mar 27 14:04:30 2024 -0300
+
+    Arreglo de header y main
+
+[33mcommit dfe2b1461298dc0ce20f9a064c91810f31886727[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Wed Mar 27 00:35:31 2024 -0300
+
+    Cambie imagen fondo de historia
+
+[33mcommit f82c43fd504202d01a890a8a661049d1db65e42e[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Wed Mar 27 00:24:42 2024 -0300
+
+    Corregi el footer
+
+[33mcommit 1a04acb8dafcf1b06d69dae84a9ba923f1630ccc[m
+Author: Mariano de Luis <marianodeluis1990@gmail.com>
+Date:   Wed Mar 27 00:16:36 2024 -0300
+
+    Index e Historia terminados
