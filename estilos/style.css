@@ -673,6 +673,14 @@ body .contenedor-telefonos .numeros p {
     height: 90%;
   }
 }
+@media only screen and (max-width: 1350px) {
+  .contenedor-vendimia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media only screen and (max-width: 890px) {
   main .contenedor .titulo h1 {
     padding-top: 20px;
@@ -697,6 +705,14 @@ body .contenedor-telefonos .numeros p {
     font-size: 150%;
     color: white;
     font-weight: bold;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body .contenedor-vendimia img {
+    display: none;
+  }
+  body .contenedor-vendimia iframe {
+    display: none;
   }
 }
 @media only screen and (max-width: 590px) {
@@ -948,34 +964,35 @@ body .contenedor-telefonos .numeros p {
     padding-left: 0px;
   }
 }
-.contenedor-vendimia {
+body .contenedor-vendimia {
+  padding: 20px;
+  padding-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px;
   column-gap: 50px;
 }
-.contenedor-vendimia .logo-vendimia {
-  width: 300px;
-  height: 300px;
-}
-.contenedor-vendimia .logo-vendimia img {
-  width: 90%;
-  height: 90%;
-}
-.contenedor-vendimia iframe {
-  border-radius: 5px;
+body .contenedor-vendimia img {
   width: 600px;
-  height: 300px;
+  height: 400px;
+  border-radius: 10px;
 }
-
-.tarjetas-contenedor {
+body .contenedor-vendimia iframe {
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+}
+body .tarjetas-contenedor {
+  padding-top: 30px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   column-gap: 30px;
   margin-bottom: 20px;
+  padding-bottom: 30px;
 }
-.tarjetas-contenedor .tarjeta {
+body .tarjetas-contenedor .tarjeta {
   width: 300px;
   height: 500px;
   border-radius: 5px;
@@ -987,28 +1004,29 @@ body .contenedor-telefonos .numeros p {
   align-items: center;
   text-align: center;
   box-shadow: 5px 5px 5px 5px #73706E;
+  margin: 20px 0;
 }
-.tarjetas-contenedor .tarjeta img {
+body .tarjetas-contenedor .tarjeta img {
   width: 90%;
   height: 150px;
   margin: 10px 10px;
   border-radius: 5px;
 }
-.tarjetas-contenedor .tarjeta h3 {
+body .tarjetas-contenedor .tarjeta h3 {
   margin: 20px 10px;
   font-family: "Lato", sans-serif;
   font-size: 1, 2rem;
   color: #73706E;
   font-weight: bold;
 }
-.tarjetas-contenedor .tarjeta p {
+body .tarjetas-contenedor .tarjeta p {
   font-family: "Lato", sans-serif;
   font-size: 0, 5rem;
   color: black;
   font-weight: 300;
   margin: 20px 10px;
 }
-.tarjetas-contenedor .tarjeta a {
+body .tarjetas-contenedor .tarjeta a {
   text-decoration: none;
   margin: 20px 10px;
   font-family: "Lato", sans-serif;
