@@ -309,6 +309,7 @@ main .historia-container {
   height: 100%;
   background-color: #F2EDE4;
   display: flex;
+  flex-wrap: wrap;
   column-gap: 20px;
   justify-content: center;
   align-items: center;
@@ -668,9 +669,17 @@ body .contenedor-telefonos .numeros p {
     display: flex;
     justify-content: center;
   }
-  main .historia-container .contenedor-sombreado img {
-    width: 90%;
-    height: 90%;
+  main .historia-container .contenedor-sombreado .imagen-historia img {
+    width: 200px;
+    height: 200px;
+  }
+  main .historia-container .contenedor-sombreado .imagen-historia {
+    display: flex;
+    justify-content: center;
+  }
+  main .historia-container .contenedor-sombreado .imagen-historia img {
+    width: 200px;
+    height: 200px;
   }
 }
 @media only screen and (max-width: 1350px) {
